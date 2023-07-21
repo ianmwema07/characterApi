@@ -1,6 +1,6 @@
-package repositories;
+package com.example.characterAPI.repositories;
 
-import entities.Actor;
+import com.example.characterAPI.entities.Actor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

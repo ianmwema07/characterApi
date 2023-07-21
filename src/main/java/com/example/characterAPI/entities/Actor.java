@@ -1,11 +1,11 @@
-package entities;
+package com.example.characterAPI.entities;
 import javax.persistence.*;
 
 @Entity
 @Table(name = "characters_table")
 public class Actor{
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
 

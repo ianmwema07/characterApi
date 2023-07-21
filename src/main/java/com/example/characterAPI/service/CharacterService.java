@@ -1,11 +1,10 @@
-package service;
+package com.example.characterAPI.service;
 
-import entities.Actor;
+import com.example.characterAPI.entities.Actor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repositories.CharacterRepository;
+import com.example.characterAPI.repositories.CharacterRepository;
 
-import java.util.AbstractCollection;
 import java.util.List;
 import java.util.Optional;
 
